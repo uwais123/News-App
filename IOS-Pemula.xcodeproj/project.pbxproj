@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52196131257DACFE004F85C0 /* IOS_PemulaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52196130257DACFE004F85C0 /* IOS_PemulaApp.swift */; };
+		52196133257DACFE004F85C0 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52196132257DACFE004F85C0 /* NewsList.swift */; };
+		52196135257DACFF004F85C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52196134257DACFF004F85C0 /* Assets.xcassets */; };
+		52196138257DACFF004F85C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52196137257DACFF004F85C0 /* Preview Assets.xcassets */; };
+		5219614C257DB1DD004F85C0 /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219614B257DB1DD004F85C0 /* NewsRow.swift */; };
+		52BB6A3A258089020021809C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6A39258089020021809C /* News.swift */; };
+		52BB6A422580B0630021809C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6A412580B0630021809C /* Profile.swift */; };
+		52BB6A512580E79A0021809C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 52BB6A502580E79A0021809C /* SwiftyJSON */; };
+		52BB6A552580E80B0021809C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 52BB6A542580E80B0021809C /* SDWebImageSwiftUI */; };
+		52BB6A5E25810CE80021809C /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6A5D25810CE80021809C /* NewsDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5219612D257DACFE004F85C0 /* IOS-Pemula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Pemula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52196130257DACFE004F85C0 /* IOS_PemulaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_PemulaApp.swift; sourceTree = "<group>"; };
+		52196132257DACFE004F85C0 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		52196134257DACFF004F85C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52196137257DACFF004F85C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52196139257DACFF004F85C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5219614B257DB1DD004F85C0 /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
+		52BB6A39258089020021809C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		52BB6A412580B0630021809C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		52BB6A5D25810CE80021809C /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5219612A257DACFE004F85C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB6A552580E80B0021809C /* SDWebImageSwiftUI in Frameworks */,
+				52BB6A512580E79A0021809C /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52196124257DACFD004F85C0 = {
+			isa = PBXGroup;
+			children = (
+				5219612F257DACFE004F85C0 /* IOS-Pemula */,
+				5219612E257DACFE004F85C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5219612E257DACFE004F85C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5219612D257DACFE004F85C0 /* IOS-Pemula.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5219612F257DACFE004F85C0 /* IOS-Pemula */ = {
+			isa = PBXGroup;
+			children = (
+				52BB6A5B25810CA80021809C /* Views */,
+				52196145257DAFEF004F85C0 /* Supporting Views */,
+				52196144257DAFDA004F85C0 /* Models */,
+				52196134257DACFF004F85C0 /* Assets.xcassets */,
+				52196130257DACFE004F85C0 /* IOS_PemulaApp.swift */,
+				52196139257DACFF004F85C0 /* Info.plist */,
+				52196136257DACFF004F85C0 /* Preview Content */,
+			);
+			path = "IOS-Pemula";
+			sourceTree = "<group>";
+		};
+		52196136257DACFF004F85C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52196137257DACFF004F85C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52196144257DAFDA004F85C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52BB6A39258089020021809C /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52196145257DAFEF004F85C0 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				5219614B257DB1DD004F85C0 /* NewsRow.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		52BB6A5B25810CA80021809C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52196132257DACFE004F85C0 /* NewsList.swift */,
+				52BB6A412580B0630021809C /* Profile.swift */,
+				52BB6A5D25810CE80021809C /* NewsDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5219612C257DACFE004F85C0 /* IOS-Pemula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5219613C257DACFF004F85C0 /* Build configuration list for PBXNativeTarget "IOS-Pemula" */;
+			buildPhases = (
+				52196129257DACFE004F85C0 /* Sources */,
+				5219612A257DACFE004F85C0 /* Frameworks */,
+				5219612B257DACFE004F85C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-Pemula";
+			packageProductDependencies = (
+				52BB6A502580E79A0021809C /* SwiftyJSON */,
+				52BB6A542580E80B0021809C /* SDWebImageSwiftUI */,
+			);
+			productName = "IOS-Pemula";
+			productReference = 5219612D257DACFE004F85C0 /* IOS-Pemula.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52196125257DACFD004F85C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					5219612C257DACFE004F85C0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 52196128257DACFD004F85C0 /* Build configuration list for PBXProject "IOS-Pemula" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52196124257DACFD004F85C0;
+			packageReferences = (
+				52BB6A4F2580E79A0021809C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				52BB6A532580E80B0021809C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 5219612E257DACFE004F85C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5219612C257DACFE004F85C0 /* IOS-Pemula */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5219612B257DACFE004F85C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52196138257DACFF004F85C0 /* Preview Assets.xcassets in Resources */,
+				52196135257DACFF004F85C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52196129257DACFE004F85C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52196133257DACFE004F85C0 /* NewsList.swift in Sources */,
+				5219614C257DB1DD004F85C0 /* NewsRow.swift in Sources */,
+				52BB6A3A258089020021809C /* News.swift in Sources */,
+				52BB6A422580B0630021809C /* Profile.swift in Sources */,
+				52196131257DACFE004F85C0 /* IOS_PemulaApp.swift in Sources */,
+				52BB6A5E25810CE80021809C /* NewsDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5219613A257DACFF004F85C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5219613B257DACFF004F85C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5219613D257DACFF004F85C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS-Pemula/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IOS-Pemula/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masuwes.IOS-Pemula";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5219613E257DACFF004F85C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS-Pemula/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IOS-Pemula/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masuwes.IOS-Pemula";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52196128257DACFD004F85C0 /* Build configuration list for PBXProject "IOS-Pemula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5219613A257DACFF004F85C0 /* Debug */,
+				5219613B257DACFF004F85C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5219613C257DACFF004F85C0 /* Build configuration list for PBXNativeTarget "IOS-Pemula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5219613D257DACFF004F85C0 /* Debug */,
+				5219613E257DACFF004F85C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52BB6A4F2580E79A0021809C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		52BB6A532580E80B0021809C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52BB6A502580E79A0021809C /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52BB6A4F2580E79A0021809C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		52BB6A542580E80B0021809C /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52BB6A532580E80B0021809C /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52196125257DACFD004F85C0 /* Project object */;
+}
