@@ -45,6 +45,13 @@ struct NewsDetail: View {
                     .padding(.leading)
                     .padding(.trailing)
                 
+                Link("View in Browser", destination: URL(string: news.url)!)
+                    .font(.headline)
+                    .foregroundColor(.blue)
+                    .padding(.top)
+                    .padding(.horizontal)
+                    .padding(.vertical)
+                
                 Spacer()
             }
         }
