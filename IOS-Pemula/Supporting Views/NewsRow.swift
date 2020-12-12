@@ -1,5 +1,5 @@
 //
-//  Cells.swift
+//  NewsRow.swift
 //  IOS-Pemula
 //
 //  Created by Uwais Alqadri on 07/12/20.
@@ -64,12 +64,3 @@ struct NewsRow: View {
         
     }
 }
-
-
-//struct NewsRow_Previews: PreviewProvider {
-//    @ObservedObject var list = Data()
-//    static var previews: some View {
-//        NewsRow(news: list)
-//            .previewLayout(.sizeThatFits)
-//    }
-//}

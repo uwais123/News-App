@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
-import SDWebImage
 
 struct NewsDetail: View {
     var news: News
@@ -58,8 +57,3 @@ struct NewsDetail: View {
     }
 }
 
-//struct NewsDetail_Previews: PreviewProvider {
-//    static var previews: some View {
-//        NewsDetail(news: News)
-//    }
-//}

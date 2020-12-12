@@ -13,7 +13,7 @@ struct NewsList: View {
     
     var body: some View {
         NavigationView {
-            // tempat listnya nnti
+            // list
             ScrollView {
                 ForEach(list.news) { item in
                     VStack {

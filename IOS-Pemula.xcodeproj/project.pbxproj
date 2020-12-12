@@ -12,12 +12,43 @@
 		52196135257DACFF004F85C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52196134257DACFF004F85C0 /* Assets.xcassets */; };
 		52196138257DACFF004F85C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52196137257DACFF004F85C0 /* Preview Assets.xcassets */; };
 		5219614C257DB1DD004F85C0 /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219614B257DB1DD004F85C0 /* NewsRow.swift */; };
+		52654E89258518AF003AF8DE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52654E88258518AF003AF8DE /* WidgetKit.framework */; };
+		52654E8B258518AF003AF8DE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52654E8A258518AF003AF8DE /* SwiftUI.framework */; };
+		52654E8E258518AF003AF8DE /* NewsAppWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52654E8D258518AF003AF8DE /* NewsAppWidget.swift */; };
+		52654E91258518B2003AF8DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52654E90258518B2003AF8DE /* Assets.xcassets */; };
+		52654E93258518B2003AF8DE /* NewsAppWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 52654E8F258518AF003AF8DE /* NewsAppWidget.intentdefinition */; };
+		52654E94258518B2003AF8DE /* NewsAppWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 52654E8F258518AF003AF8DE /* NewsAppWidget.intentdefinition */; };
+		52654E97258518B2003AF8DE /* NewsAppWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52654E86258518AF003AF8DE /* NewsAppWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52BB6A3A258089020021809C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6A39258089020021809C /* News.swift */; };
 		52BB6A422580B0630021809C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6A412580B0630021809C /* Profile.swift */; };
 		52BB6A512580E79A0021809C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 52BB6A502580E79A0021809C /* SwiftyJSON */; };
 		52BB6A552580E80B0021809C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 52BB6A542580E80B0021809C /* SDWebImageSwiftUI */; };
 		52BB6A5E25810CE80021809C /* NewsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB6A5D25810CE80021809C /* NewsDetail.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52654E95258518B2003AF8DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52196125257DACFD004F85C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52654E85258518AF003AF8DE;
+			remoteInfo = NewsAppWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52654E9B258518B2003AF8DE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				52654E97258518B2003AF8DE /* NewsAppWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5219612D257DACFE004F85C0 /* IOS-Pemula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Pemula.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,6 +58,13 @@
 		52196137257DACFF004F85C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52196139257DACFF004F85C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5219614B257DB1DD004F85C0 /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
+		52654E86258518AF003AF8DE /* NewsAppWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NewsAppWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		52654E88258518AF003AF8DE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		52654E8A258518AF003AF8DE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		52654E8D258518AF003AF8DE /* NewsAppWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppWidget.swift; sourceTree = "<group>"; };
+		52654E8F258518AF003AF8DE /* NewsAppWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = NewsAppWidget.intentdefinition; sourceTree = "<group>"; };
+		52654E90258518B2003AF8DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52654E92258518B2003AF8DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BB6A39258089020021809C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		52BB6A412580B0630021809C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		52BB6A5D25810CE80021809C /* NewsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetail.swift; sourceTree = "<group>"; };
@@ -42,6 +80,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52654E83258518AF003AF8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52654E8B258518AF003AF8DE /* SwiftUI.framework in Frameworks */,
+				52654E89258518AF003AF8DE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				5219612F257DACFE004F85C0 /* IOS-Pemula */,
+				52654E8C258518AF003AF8DE /* NewsAppWidget */,
+				52654E87258518AF003AF8DE /* Frameworks */,
 				5219612E257DACFE004F85C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				5219612D257DACFE004F85C0 /* IOS-Pemula.app */,
+				52654E86258518AF003AF8DE /* NewsAppWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +149,26 @@
 			path = "Supporting Views";
 			sourceTree = "<group>";
 		};
+		52654E87258518AF003AF8DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52654E88258518AF003AF8DE /* WidgetKit.framework */,
+				52654E8A258518AF003AF8DE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52654E8C258518AF003AF8DE /* NewsAppWidget */ = {
+			isa = PBXGroup;
+			children = (
+				52654E8D258518AF003AF8DE /* NewsAppWidget.swift */,
+				52654E8F258518AF003AF8DE /* NewsAppWidget.intentdefinition */,
+				52654E90258518B2003AF8DE /* Assets.xcassets */,
+				52654E92258518B2003AF8DE /* Info.plist */,
+			);
+			path = NewsAppWidget;
+			sourceTree = "<group>";
+		};
 		52BB6A5B25810CA80021809C /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,10 +189,12 @@
 				52196129257DACFE004F85C0 /* Sources */,
 				5219612A257DACFE004F85C0 /* Frameworks */,
 				5219612B257DACFE004F85C0 /* Resources */,
+				52654E9B258518B2003AF8DE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				52654E96258518B2003AF8DE /* PBXTargetDependency */,
 			);
 			name = "IOS-Pemula";
 			packageProductDependencies = (
@@ -132,6 +204,23 @@
 			productName = "IOS-Pemula";
 			productReference = 5219612D257DACFE004F85C0 /* IOS-Pemula.app */;
 			productType = "com.apple.product-type.application";
+		};
+		52654E85258518AF003AF8DE /* NewsAppWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52654E98258518B2003AF8DE /* Build configuration list for PBXNativeTarget "NewsAppWidgetExtension" */;
+			buildPhases = (
+				52654E82258518AF003AF8DE /* Sources */,
+				52654E83258518AF003AF8DE /* Frameworks */,
+				52654E84258518AF003AF8DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsAppWidgetExtension;
+			productName = NewsAppWidgetExtension;
+			productReference = 52654E86258518AF003AF8DE /* NewsAppWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -143,6 +232,9 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					5219612C257DACFE004F85C0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					52654E85258518AF003AF8DE = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -165,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				5219612C257DACFE004F85C0 /* IOS-Pemula */,
+				52654E85258518AF003AF8DE /* NewsAppWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +272,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52654E84258518AF003AF8DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52654E91258518B2003AF8DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,13 +290,31 @@
 				52196133257DACFE004F85C0 /* NewsList.swift in Sources */,
 				5219614C257DB1DD004F85C0 /* NewsRow.swift in Sources */,
 				52BB6A3A258089020021809C /* News.swift in Sources */,
+				52654E94258518B2003AF8DE /* NewsAppWidget.intentdefinition in Sources */,
 				52BB6A422580B0630021809C /* Profile.swift in Sources */,
 				52196131257DACFE004F85C0 /* IOS_PemulaApp.swift in Sources */,
 				52BB6A5E25810CE80021809C /* NewsDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		52654E82258518AF003AF8DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52654E8E258518AF003AF8DE /* NewsAppWidget.swift in Sources */,
+				52654E93258518B2003AF8DE /* NewsAppWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52654E96258518B2003AF8DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52654E85258518AF003AF8DE /* NewsAppWidgetExtension */;
+			targetProxy = 52654E95258518B2003AF8DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5219613A257DACFF004F85C0 /* Debug */ = {
@@ -317,6 +436,7 @@
 		5219613D257DACFF004F85C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +458,7 @@
 		5219613E257DACFF004F85C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,6 +472,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.masuwes.IOS-Pemula";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52654E99258518B2003AF8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewsAppWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masuwes.IOS-Pemula.NewsAppWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52654E9A258518B2003AF8DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NewsAppWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masuwes.IOS-Pemula.NewsAppWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -373,6 +534,15 @@
 			buildConfigurations = (
 				5219613D257DACFF004F85C0 /* Debug */,
 				5219613E257DACFF004F85C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52654E98258518B2003AF8DE /* Build configuration list for PBXNativeTarget "NewsAppWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52654E99258518B2003AF8DE /* Debug */,
+				52654E9A258518B2003AF8DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
